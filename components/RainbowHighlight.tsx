@@ -21,4 +21,4 @@ export const RainbowHighlight = ({ children, color }: RainbowHighlightProps) => 
             { children }
         </RoughNotation>
     );
-};
+}

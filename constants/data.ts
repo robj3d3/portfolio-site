@@ -1,4 +1,6 @@
 const userData = {
+  name: "Rob Hallam",
+  role: "Software Engineer",
   socialLinks: {
     instagram: "https://instagram.com/cristiano", // FIXME
     twitter: "https://twitter.com/robj3d3",
