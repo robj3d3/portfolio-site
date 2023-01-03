@@ -6,6 +6,7 @@ import Footer from "./Footer";
 
 type ContainerBlockProps = {
     children: React.ReactNode;
+    [x: string]: any;
 }
 
 export default function ContainerBlock({ children, ...customMeta }: ContainerBlockProps) {
