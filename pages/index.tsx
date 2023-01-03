@@ -1,5 +1,5 @@
 import ContainerBlock from "../components/ContainerBlock";
-// import Hero from "../components/Hero";
+import Hero from "../components/Hero";
 // import FavouriteProjects from "../components/FavouriteProjects";
 // import LatestCode from "../components/LatestCode";
 
@@ -10,9 +10,10 @@ export default function Home() {
       title="Rob Hallam - Portfolio"
       description="Portfolio site for Rob Hallam"
     >
-      <div>
+      {/* <div>
         <h1>Hello</h1>
-      </div>
+      </div> */}
+      <Hero/>
       {/* <Hero />
       <FavouriteProjects />
       <LatestCode /> */}
