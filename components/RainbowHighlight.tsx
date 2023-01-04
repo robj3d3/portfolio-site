@@ -7,7 +7,7 @@ type RainbowHighlightProps = {
 }
 
 export const RainbowHighlight = ({ children, color }: RainbowHighlightProps) => {
-    const animationDuration = Math.floor(30 * (children as React.ReactNode[]).length);
+    const animationDuration = Math.floor(30 * (children as React.ReactNode[]).length); // TODO test variations
 
     return (
         <RoughNotation
