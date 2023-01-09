@@ -12,9 +12,6 @@ export default function Home({ repositories }: { [x:string]: any }) {
       title="Rob Hallam - Portfolio"
       description="Portfolio site for Rob Hallam"
     >
-      {/* <div>
-        <h1>Hello</h1>
-      </div> */}
       <Hero/>
       <LatestCode repositories={ repositories } />
     </ContainerBlock>
