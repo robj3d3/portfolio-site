@@ -1,9 +1,9 @@
 const userData = {
   name: "Rob Hallam",
   role: "Software Engineer",
-  avatarUrl: "/displaypic.png", // TODO FIXME - bigger
+  avatarUrl: "/displaypic.png", // TODO FIXME - Bigger
   githubUsername: "robj3d3",
-  email: "test@gmail.com",
+  email: "test@gmail.com", // TODO - Add email
   address: "Reading, UK",
   socialLinks: {
     twitter: "https://twitter.com/robj3d3",
@@ -13,7 +13,7 @@ const userData = {
   projects: [ // TODO - Add various Uni projects such as mobile cw
     {
       title: "Security-AI Research Project",
-      link: "/", // TODO - direct to useful link address
+      link: "/", // TODO - Direct to useful link address
       imgUrl: "/rob-hallam-bsc.png",
     },
     {
