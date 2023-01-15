@@ -11,6 +11,16 @@ const userData = {
     linkedin: "https://linkedin.com/in/roberthallam",
     github: "https://github.com/robj3d3",
   },
+  about: {
+    title: "I'm a Software Engineer, and BSc Computer Science graduate. Interests are in the fields of cyber security and artificial intelligence, as well as full-stack development. Actively involved in the world of Web3",
+    description: [
+      "World",
+      "One",
+      "Two"
+    ],
+    currentProject: "ShuttleBay",
+    currentProjectUrl: "https://www.shuttlebay.xyz/"
+  },
   projects: [ // TODO - Add various Uni projects such as mobile cw
     {
       title: "Security-AI Research Project",
@@ -34,6 +44,13 @@ const userData = {
     },
   ],
   experience: [
+    {
+      title: "Coming soon...",
+      company: "Somewhere",
+      year: "2023",
+      companyLink: "https://robhallam.com",
+      desc: ""
+    },
     {
       title: "Software Engineer",
       company: "Pexip",
