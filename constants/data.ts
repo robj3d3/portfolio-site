@@ -3,6 +3,8 @@ const userData = {
   role: "Software Engineer",
   avatarUrl: "/displaypic.png", // TODO FIXME - bigger
   githubUsername: "robj3d3",
+  email: "test@gmail.com",
+  address: "Reading, UK",
   socialLinks: {
     twitter: "https://twitter.com/robj3d3",
     linkedin: "https://linkedin.com/in/roberthallam",
