@@ -17,7 +17,7 @@ export default function Projects() {
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
-              number={`${idx + 1}`}
+              key={idx}
             />
           ))}
         </div>
@@ -30,13 +30,15 @@ type ProjectCardProps = {
     title: string;
     link: string;
     imgUrl: string;
-    number: string;
+    key: number;
 }
 
 
-const ProjectCard = ({ title, link, imgUrl, number }: ProjectCardProps) => {
+const ProjectCard = ({ title, link, imgUrl, key }: ProjectCardProps) => {
+  const number = `${key + 1}`;
+
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <a href={link} className="w-full block shadow-2xl" key={key}>
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img

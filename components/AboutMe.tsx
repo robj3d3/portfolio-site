@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import userData from "../constants/data";
 
@@ -41,7 +42,7 @@ export default function AboutMe() {
                             >
                             email
                             </a>{" "}
-                            and I'll get back!
+                            and I&apos;ll get back!
                         </p>
                     </div>
                     <div className="mt-8">
@@ -110,77 +111,131 @@ export default function AboutMe() {
                         Tech Stack
                     </h1>
                     <div className="flex flex-row flex-wrap mt-8">
-                        <img
+                        <Image
                             src="/js.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="JS"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/ts.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="TS"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/python.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Python"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/java.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Java"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/cplusplus.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="CPlusPlus"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/html.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="HTML"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/css.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="CSS"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/react.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="React"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/nextjs.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="NextJS"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/git.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Git"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/docker.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Docker"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
+                            src="/kubernetes.png"
+                            alt="Kubernetes"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
+                        />
+                        <Image
                             src="/mysql.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="MySQL"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
-                            src="/twisted.png"
-                            className="h-20 w-20 mx-4 my-4"
-                        />
-                        <img
+                        <Image
                             src="/flask.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Flask"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/redis.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Redis"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/haskell.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Haskell"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/linux.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Linux"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
-                        <img
+                        <Image
                             src="/figma.png"
-                            className="h-20 w-20 mx-4 my-4"
+                            alt="Figma"
+                            height={80}
+                            width={80}
+                            className="mx-4 my-4"
                         />
                     </div>
                 </div>
