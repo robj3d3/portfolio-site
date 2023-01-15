@@ -36,7 +36,7 @@ type ProjectCardProps = {
 
 
 const ProjectCard = ({ title, link, imgUrl, key }: ProjectCardProps) => {
-  const number = `${key + 1}`;
+  // const number = `${key + 1}`;
 
   return (
     <a href={link} className="w-full block shadow-2xl" key={key}>
@@ -53,9 +53,9 @@ const ProjectCard = ({ title, link, imgUrl, key }: ProjectCardProps) => {
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
           {title}
         </h1>
-        <h1 className="absolute bottom-10 right-10 text-gray-900 font-bold text-xl">
+        {/* <h1 className="absolute bottom-10 right-10 text-gray-900 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
-        </h1>
+        </h1> */}
       </div>
     </a>
   );

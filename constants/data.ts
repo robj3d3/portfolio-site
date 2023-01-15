@@ -63,7 +63,7 @@ const userData = {
       company: "University of Birmingham",
       year: "2019-2022",
       companyLink: "https://www.birmingham.ac.uk/",
-      desc: "First Class Honours (87% weighted average, 4.25 GPA). Graduated top of cohort, along with highest marked dissertation, titled 'Recovering Embedded Neural Network Model Parameters Through Emulated 'Timing-based' Side-channel Attacks'."
+      desc: "BSc Computer Science with First Class Honours (87% weighted average, 4.25 GPA). Graduated top of cohort, along with highest marked dissertation, titled 'Recovering Embedded Neural Network Model Parameters Through Emulated 'Timing-based' Side-channel Attacks'."
     },
     {
       title: "Software Engineer Intern",

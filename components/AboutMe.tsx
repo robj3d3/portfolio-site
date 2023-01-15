@@ -21,7 +21,7 @@ export default function AboutMe() {
                 className="bg-blue-900 rounded-md px-2 py-1 text-white"
                 href={userData.about.currentProjectUrl}
                 >
-                {userData.about.currentProject} ✈️
+                {userData.about.currentProject} 🚀
                 </a>
             </p>
             </div>
@@ -202,6 +202,7 @@ export default function AboutMe() {
                             width={80}
                             className="mx-4 my-4"
                         />
+                        {/* TODO: Change? Doesn't look good in dark mode */}
                         <Image
                             src="/flask.png"
                             alt="Flask"
