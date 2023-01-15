@@ -1,4 +1,5 @@
 const userData = {
+  // TODO: Replace favicon
   name: "Rob Hallam",
   role: "Software Engineer",
   avatarUrl: "/displaypic.png", // TODO FIXME - Bigger
@@ -32,6 +33,64 @@ const userData = {
       imgUrl: "/covidcatch.png",
     },
   ],
+  experience: [
+    {
+      title: "Software Engineer",
+      company: "Pexip",
+      year: "2022-2023",
+      companyLink: "https://www.pexip.com",
+      desc: "Developed and deployed a feature within two weeks, for handling RTMP live-streaming of a desired conferencing video layout. Contributed to discovering and fixing a range of issues across Infinity's service logic and media playback service."
+    },
+    {
+      title: "Graduation",
+      company: "University of Birmingham",
+      year: "2019-2022",
+      companyLink: "https://www.birmingham.ac.uk/",
+      desc: "First Class Honours (87% weighted average, 4.25 GPA). Graduated top of cohort, along with highest marked dissertation, titled 'Recovering Embedded Neural Network Model Parameters Through Emulated 'Timing-based' Side-channel Attacks'."
+    },
+    {
+      title: "Software Engineer Intern",
+      company: "Pexip",
+      year: "2021",
+      companyLink: "https://www.pexip.com",
+      desc: "Developed dynamic call load balancer to help customers of Pexip's Infinity video conferencing platform seamlessly scale beyond a single deployment."
+    },
+    {
+      title: "Developer Student Club Lead",
+      company: "Google Developers",
+      year: "2020-2021",
+      companyLink: "https://developers.google.com/",
+      desc: "Selected by Google to lead the Developer Student Club at the University of Birmingham. Led the organisation of workshops, showcase events and talks."
+    },
+    {
+      title: "Software Engineer Intern",
+      company: "Open Water Accelerator",
+      year: "2020",
+      companyLink: "https://openwatervc.com/",
+      desc: "Placed with a startup portfolio company based in Menlo Park, CA, US. Collaborated with a team of engineers, designers and project managers to develop a full-stack minimum viable product (MVP)."
+    },
+    {
+      title: "Organiser and Project Mentor",
+      company: "Hackathons for Schools",
+      year: "2020",
+      companyLink: "https://www.hackathonsforschools.com/",
+      desc: "Worked closely with a team to design a week-long, online programme targeted at sixth form students interested in technology. Involved coordinating and hosting workshops."
+    },
+    {
+      title: "Mathematics Tutor",
+      company: "Meet IT",
+      year: "2020",
+      companyLink: "https://www.instagram.com/_meetit/?hl=en",
+      desc: "Volunteered as a tutor as part of the AIT Preparatory Course with Meet IT to help underprivileged teenagers in the Philippines develop and cultivate their interest in STEM."
+    },
+    {
+      title: "High School",
+      company: "RGS Worcester",
+      year: "2017-2019",
+      companyLink: "https://www.rgsw.org.uk/",
+      desc: "A-Levels: Mathematics (A*), Computer Science (A*), Physics (A*), Further Mathematics (B). Scored Top 50 nationally in Computer Science, receiving an award from Netcraft."
+    },
+  ]
 };
   
 export default userData;
