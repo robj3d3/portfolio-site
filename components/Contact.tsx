@@ -54,7 +54,7 @@ export default function Contact() {
                     </div>
                 </div>
                 {/* TODO: Add form submit functionality */}
-                <form className="form rounded-lg bg-white p-4 flex flex-col">
+                <form className="form rounded-lg bg-white p-4 flex flex-col" action="https://formsubmit.co/robhallamwork@outlook.com" method="POST">
                     <label htmlFor="name" className="text-sm text-gray-600 mx-4">
                         {" "}
                         Your Name
@@ -63,14 +63,16 @@ export default function Contact() {
                         type="text"
                         className="font-light rounded-md dark:bg-gray-300 dark:text-black border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
                         name="name"
+                        required
                     />
                     <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
-                        Email
+                        Your Email
                     </label>
                     <input
-                        type="text"
+                        type="email"
                         className="font-light rounded-md dark:bg-gray-300 dark:text-black border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
                         name="email"
+                        required
                     />
                     <label
                         htmlFor="message"
@@ -83,7 +85,23 @@ export default function Contact() {
                         type="text"
                         className="font-light rounded-md dark:bg-gray-300 dark:text-black border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
                         name="message"
+                        required
                     ></textarea>
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="New Portfolio Contact" 
+                    />
+                    <input
+                        type="hidden"
+                        name="_captcha"
+                        value="false" 
+                    />
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://robhallam.com" 
+                    />
                     <button
                         type="submit"
                         className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"

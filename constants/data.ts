@@ -4,7 +4,7 @@ const userData = {
   role: "Software Engineer",
   avatarUrl: "/displaypic.png", // TODO FIXME - Bigger
   githubUsername: "robj3d3",
-  email: "test@gmail.com", // TODO - Add email
+  email: "robhallamwork@outlook.com", // TODO - Add email
   address: "Reading, UK",
   socialLinks: {
     twitter: "https://twitter.com/robj3d3",
