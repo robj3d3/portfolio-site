@@ -1,5 +1,4 @@
 const userData = {
-  // TODO: Replace favicon
   // TODO: Add ESLinting
   name: "Rob Hallam",
   role: "Software Engineer",
