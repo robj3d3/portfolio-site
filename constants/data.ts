@@ -45,11 +45,11 @@ const userData = {
   ],
   experience: [
     {
-      title: "Coming soon...",
-      company: "Somewhere",
+      title: "Software Engineer",
+      company: "Fusion XYZ",
       year: "2023",
-      companyLink: "https://robhallam.com",
-      desc: ""
+      companyLink: "https://fusion.xyz",
+      desc: "Working to build and help lead the development of ecosystems that look to solve many of the scalability and security problems currently facing Web3."
     },
     {
       title: "Software Engineer",
